@@ -18,8 +18,8 @@ class Part3Test {
   @Test def testFib(){
     assertEquals(0, fib(0))
     assertEquals(1, fib(1))
-    assertEquals(3, fib(2))
-    assertEquals(21, fib(6))
+    assertEquals(1, fib(2))
+    assertEquals(8, fib(6))
   }
 
 }
